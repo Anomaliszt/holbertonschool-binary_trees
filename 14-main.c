@@ -10,7 +10,6 @@
 int main(void)
 {
     binary_tree_t *root;
-    int balance;
 
     root = binary_tree_node(NULL, 98);
     root->left = binary_tree_node(root, 12);
